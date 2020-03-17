@@ -1,0 +1,42 @@
+body{
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: grey;
+}
+
+h1{
+	text-align: center;
+	border-bottom: 10px dotted #890236;
+	color: #025877;
+}
+
+.menu{
+	display: inline-block;
+	background-color: #890236;
+	color: #fff;
+	padding-left: 110px;
+	padding-right: 110px;	
+}
+
+form{
+	margin-left: 30px;
+	background-color: #025877;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+p{
+	text-align: center;
+	
+}
+
+table{
+	background-color: #890236;
+	margin-left: 30px;
+	
+}
+
+section{
+	display: inline-block;
+	
+}

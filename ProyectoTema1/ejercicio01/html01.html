@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- <link rel="icon" type="images/jpg" href="../../images/favicon.jpg"/> -->
+		<link href="css/estilos.css"  rel="stylesheet"         type="text/css" title="Default style">
+		<title>1.2 HTML - Nerea Nuevo</title>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Matrícula del curso</h1>
+		</header>
+		
+		<ul>
+			<li class="menu">Home</li>
+			<li class="menu">Oferta educativa</li>
+			<li class="menu">Tutorias</li>
+			<li class="menu">Horarios</li>
+			<li class="menu">Contacto</li>			
+		</ul>
+		
+		<section>
+		<figure>
+			<img src="sauces.png" width="400px" height="300"/>
+			<figcaption>Si pulsas en la imagen te lleva a la web del centro</figcaption>
+		</figure>
+		</section>
+		
+		<section>
+		<form>
+			<fieldset>
+				<legend>Datos personales</legend>
+				
+				<div>
+					Nombre: <br/>
+					<input type="text" name="nombre" placeholder="Escriba su nombre"><br>
+				</div>
+				
+				<div>
+					Apellidos: <br/>
+					<input type="text" name="apellidos" placeholder="Escriba sus apellidos"><br>
+				</div>
+				
+				<div>
+					Correo electrónico: <br/>
+					<input type="email" name="correo" placeholder="Escriba el correo electrónico">
+				</div>
+				
+				<div>
+					Fecha de nacimiento: <br/>
+					<input type="date" name="fecha" min="1968-03-14" max="2000-11-08"><br>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Matricula</legend>
+				
+				<div>
+					¿De qué te matriculas? <br/>
+					<input type="radio" name="curso" value="1">1º Curso <br/>
+					<input type="radio" name="curso" value="2">2º Curso
+				</div>
+			</fieldset>
+			<br/><input type="submit" value="Aceptar">
+		</form>
+		</section>
+		
+		<section>
+		<table border="1">
+			<tr>
+				<th>Curso</th>
+				<th>Asignaturas</th>
+			</tr>
+			<tr>
+				<td>1º Curso</td>
+				<td>
+					<ul>
+						<li>Redes Locales</li>
+						<li>Sistemas Operativos</li>
+						<li>Aplicaciones Web</li>
+						<li>Ofimática</li>
+						<li>FOL</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>2º Curso</td>
+				<td>
+					<ul>
+						<li>Montaje y mantenimiento</li>
+						<li>Sistemas Operativos en Red</li>
+						<li>Servicios</li>
+						<li>Seguridad</li>
+						<li>Empresa</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+		</section>
+		
+		<p>Contacto del centro:</p>
+		<p>Av. Federico Silva, 48, 49600 Benavente, Zamora</p>
+	</body>
+</html>
